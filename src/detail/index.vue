@@ -48,6 +48,7 @@
       methods:{
         toLogin(){
           this.$router.push("/login")
+          console.log(1)
         },
         toNews(){
           this.$router.push("/detail/news")
