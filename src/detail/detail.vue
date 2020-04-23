@@ -35,7 +35,8 @@
       <div style="height: 250px;width: 100%;"></div>
       <div style="display: flex;width: 100%;">
         <div style="flex: 1;padding: 2vh 2vw;">
-          <img  @click="btn_yijian" class="b_m" src="http://www.sh-aiguo.gov.cn/images/2011patriotism/lxwm.jpg" alt="">
+          <img style="width: 100%;" @click="$router.push('/')" class="b_m" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1828151435,1309904318&fm=15&gp=0.jpg" alt="">
+<!--          <img  @click="btn_yijian" class="b_m" src="http://www.sh-aiguo.gov.cn/images/2011patriotism/lxwm.jpg" alt="">-->
           <img style="width: 100%;" @click="newsBtn" class="b_m" src="../assets/news.jpg" alt="">
 
         </div>

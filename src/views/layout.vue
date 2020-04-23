@@ -31,7 +31,7 @@
 
           <el-menu-item index="/home/admin_fankui">
             <i class="el-icon-more-outline"></i>
-            <span slot="title">用户意见反馈</span>
+            <span slot="title">用户评论反馈</span>
           </el-menu-item>
 
           <el-submenu index="2">

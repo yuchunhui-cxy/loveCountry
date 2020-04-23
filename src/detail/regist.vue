@@ -27,7 +27,7 @@
             </el-form-item>
           </el-form>
           <div style="width: 100%;text-align: center;">
-            <el-button style="width: 80%;" type="primary" @click="btn_login">注册</el-button>
+            <el-button style="width: 80%;" type="primary" @click="btn_login">点击注册</el-button>
           </div>
       </div>
     </div>
@@ -94,7 +94,7 @@
                     message: '注册成功',
                     type: 'success'
                   });
-                  this.$router.push({path:"/"})
+                  this.$router.push({path:"/login"})
 
                 }else {
                   this.$message({
